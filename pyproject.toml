@@ -1,0 +1,15 @@
+[project]
+name = "py-dotpath"
+version = "0.1.0"
+description = "Lightweight utility for accessing and setting nested dict values using dot notation."
+authors = [{ name="Neil Mehta", email="neil.mehta0201@gmail.com" }]
+license = {text = "GPL-3.0-or-later"}
+readme = "README.md"
+requires-python = ">=3.7"
+
+[tool.setuptools.packages.find]
+where = ["dotpath"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
