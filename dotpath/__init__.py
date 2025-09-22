@@ -1,2 +1,2 @@
-from .core import dot_get
+from .core import dot_get, dot_set
 
