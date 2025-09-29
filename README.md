@@ -1,6 +1,9 @@
 # py-dotpath
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CI](https://github.com/mchappyneil/py-dotpath/actions/workflows/ci.yml/badge.svg)](https://github.com/mchappyneil/py-dotpath/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/mchappyneil/py-dotpath/branch/main/graph/badge.svg?token=YOUR_CODECOV_TOKEN)](https://codecov.io/gh/mchappyneil/py-dotpath)
+
 
 **py-dotpath** is a lightweight Python utility for safely and easily accessing and setting nested dictionary values using **dot notation paths**.
 
