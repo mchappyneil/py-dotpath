@@ -1,2 +1,1 @@
-from .core import dot_get, dot_set
-
+from .core import dot_get, dot_set # noqa: F401
