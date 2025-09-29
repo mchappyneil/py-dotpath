@@ -23,8 +23,8 @@ def test_dot_get_midway_non_dict_returns_default():
     assert dot_get(data, "user.profile.email", default="missing") == "missing"
 
 def test_dot_get_root_level_key():
-    data = {"username": "mchappyneil"}
-    assert dot_get(data, "username") == "mchappyneil"
+    data = {"username": "weeyumsfan123"}
+    assert dot_get(data, "username") == "weeyumsfan123"
     
 # dot_set tests
 def test_dot_set_creates_new_path():
