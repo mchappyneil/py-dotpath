@@ -24,7 +24,7 @@ def dot_get(data: Dict, path: str, default: Optional[Any] = None) -> Any:
         if isinstance(current, dict) and key in current:
             current = current[key]
         else:
-            return default 
+            return default
     return current
 
 

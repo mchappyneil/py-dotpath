@@ -1,4 +1,4 @@
-import pytest
+import pytest  # noqa: F401
 from dotpath import dot_get, dot_set
 
 
@@ -6,7 +6,7 @@ from dotpath import dot_get, dot_set
 def test_dot_get_existing_path():
     data = {"user": {"profile": {"email": "test@example.com"}}}
     assert dot_get(data, "user.profile.email") == "test@example.com"
-    
+
 
 def test_dot_get_nonexistent_path_returns_default():
     data = {"user": {"profile": {}}}
@@ -31,8 +31,8 @@ def test_dot_get_midway_non_dict_returns_default():
 def test_dot_get_root_level_key():
     data = {"username": "weeyumsfan123"}
     assert dot_get(data, "username") == "weeyumsfan123"
-    
-    
+
+
 # dot_set tests
 def test_dot_set_creates_new_path():
     data = {}
